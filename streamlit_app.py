@@ -49,4 +49,7 @@ streamlit.write('Thanks for adding ', add_my_fruit_1)
 #fruits_to_show_2 = my_fruit_list.loc[add_my_fruit]
 #streamlit.text('Thanks for adding',[fruits_to_show_2])
 
+#This will not work correctly, but just go with it for now
+my_cur.execute("insert into fruit_load_list values ('from streamlit')")
+
 
